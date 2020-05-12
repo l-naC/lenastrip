@@ -1,0 +1,142 @@
+# Translation of Themes - Blossom Mommy Blog in French (France)
+# This file is distributed under the same license as the Themes - Blossom Mommy Blog package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-27 14:15:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Blossom Mommy Blog\n"
+
+#. Description of the theme
+msgid "Blossom Mommy Blog is a child theme of Blossom Feminine for quickly creating the best mom blog for free. Blossom Mommy Blog is a pretty, clean, free feminine WordPress theme that will help you create a stunning mobile-friendly mom blog without writing a single line of code. The theme looks clean and simple yet is loaded with modern and advanced easy-to-use features that help you stand out. What makes Blossom Mommy Blog different from other free mommy WordPress themes is its premium features and layouts combined with SEO friendly code that is Schema ready, all for free. This feminine and chic theme can be used to create a stunning, lively and eye-catching website. Whether you want to share your expert fashion tips, your favorite recipes or create a lifestyle, travel, food, beauty, make-up, wedding, portfolio, personal, girly, parenting or cooking blog, Blossom Mommy Blog is an ideal choice for you. You can easily customize your website using the typography and color features. You can change the color to pink, purple, blue, or any color you like. Blossom Mommy Blog is mobile friendly and fully responsive to ensure your website looks great on different screens. The beautiful Instagram section can be used to showcase images from your Instagram account and increase your followers. The advertisement widget in the theme will help you easily monetize your blog. The well placed Newsletter section will help you to grow your email list and keep in touch with your visitors. The theme is translation ready, supports RTL and WooCommerce plugin. In addition, Blossom Mommy Blog is backed by world-class, one-on-one support, and a super active team of developers and designers ready to help! Check demo: https://demo.blossomthemes.com/blossom-mommy-blog/, read the documentation: https://docs.blossomthemes.com/docs/blossom-mommy-blog/, and get support: https://blossomthemes.com/support-ticket/."
+msgstr "Blossom Mommy Blog est un thème enfant de Blossom Feminine pour créer rapidement le meilleur blog de maman gratuitement. Blossom Mommy Blog est un joli thème féminin WordPress, propre et gratuit qui vous aidera à créer un superbe blog pour maman optimisé pour mobile sans écrire une seule ligne de code. Le thème semble propre et simple mais est chargé avec des fonctionnalités modernes et avancées facile à utiliser qui vous aident à vous démarquer. Ce qui rend Blossom Mommy Blog différent des autres thèmes WordPress gratuits pour mamans est ses fonctionnalités premium et mises en page combinées avec le code optimisé pour le SEO qui est compatible Schema, le tout gratuitement. Ce thème féminin et chic peut être utilisé pour créer un site web magnifique, vivant et accrocheur. Que vous souhaitiez partager vos conseils de mode d'experts, vos recettes préférées ou créer un blog de mode de vie, voyage, nourriture, beauté, maquillage, mariage, portfolio, personnel, girly, parental ou de cuisine, Blossom Mommy Blog est un choix idéal pour vous. Vous pouvez facilement personnaliser votre site web en utilisant la typographie et les caractéristiques de couleur. Vous pouvez changer la couleur en rose, violet, bleu, ou n'importe quelle couleur que vous aimez. Blossom Mommy Blog est optimisé pour mobile et entièrement réactif pour s'assurer que votre site web est ressemblant sur différents écrans. La belle section Instagram peut être utilisée pour présenter des images de votre compte Instagram et augmenter vos abonnés. Le widget de publicité dans le thème vous aidera à monétiser facilement votre blog. La section de newsletter bien placée vous aidera à faire fructifier votre liste d’e-mails et à rester en contact avec vos visiteurs. Le thème est prêt pour la traduction, prend en charge le RTL et l’extension WooCommerce. En outre, Blossom Mommy Blog est soutenu mondialement, avec un support en tête à tête, et une équipe super active de développeurs et de designers prêts à aider ! Découvrir la démo : https://demo.blossomthemes.com/blossom-mommy-blog/, lire la documentation : https://docs.blossomthemes.com/docs/blossom-mommy-blog/ et obtenir du support : https://blossomthemes.com/support-ticket/."
+
+#. Theme Name of the theme
+msgid "Blossom Mommy Blog"
+msgstr "Blossom Mommy Blog"
+
+#: functions.php:881
+msgid " Blossom Themes"
+msgstr " Blossom Themes"
+
+#: functions.php:880
+msgid " Blossom Mommy Blog | Developed By "
+msgstr " Blossom Mommy Blog | Développé par "
+
+#: functions.php:883
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:883
+msgid " Powered by %s"
+msgstr "Propulsé par %s"
+
+#: functions.php:522
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:521
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:520
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:474
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: functions.php:302
+msgid "This is the layout for blog index page."
+msgstr "Ceci est la mise en page pour la page d'index du blog."
+
+#: functions.php:301
+msgid "Home Page Layouts"
+msgstr "Mises en page de la page d'accueil"
+
+#: functions.php:280
+msgid "Home Page Layout"
+msgstr "Mise en page de la page d'accueil"
+
+#: functions.php:267
+msgid "This is the slider layouts for your blog."
+msgstr "Il s'agit des mises en page de diaporama pour votre blog."
+
+#: functions.php:266
+msgid "Slider Layouts"
+msgstr "Mises en page du diaporama"
+
+#: functions.php:245
+msgid "Slider Layout"
+msgstr "Mise en page du diaporama"
+
+#: functions.php:224
+msgid "Primary color of the theme."
+msgstr "Couleur primaire du thème."
+
+#: functions.php:223
+msgid "Primary Color"
+msgstr "Couleur primaire"
+
+#: functions.php:200
+msgid "Change the font size of your site."
+msgstr "Changez la taille de police du titre de votre site."
+
+#: functions.php:199
+msgid "Font Size"
+msgstr "Taille de police"
+
+#: functions.php:178
+msgid "Secondary font of the site."
+msgstr "Police secondaire du site."
+
+#: functions.php:177
+msgid "Secondary Font"
+msgstr "Police secondaire"
+
+#: functions.php:156
+msgid "Primary font of the site."
+msgstr "Police principale du site."
+
+#: functions.php:155
+msgid "Primary Font"
+msgstr "Police principale"
+
+#: functions.php:135
+msgid "Typography"
+msgstr "Typographie"
+
+#: functions.php:119
+msgid "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sLien de documentation :%2$s %3$sCliquez ici.%4$s"
+
+#: functions.php:117
+msgid "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sLien de démo :%2$s %3$sCliquez ici.%4$s"
+
+#: functions.php:102
+msgid "Demo & Documentation "
+msgstr "Démo et documentation "
+
+#. Author URI of the theme
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+msgid "https://blossomthemes.com/downloads/blossom-mommy-blog-free-wordpress-theme/"
+msgstr "https://blossomthemes.com/downloads/blossom-mommy-blog-free-wordpress-theme/"

@@ -1,0 +1,14 @@
+footer{
+    background: #C02300;
+    text-align: center;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+}

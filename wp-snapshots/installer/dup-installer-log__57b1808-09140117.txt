@@ -1,0 +1,634 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:04:49
+* VERSION: 1.3.32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.17                                |7.3.17
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-05-09 14:01:17
+WP VERSION__________: 5.4.1
+DUP VERSION_________: 1.3.32
+DB__________________: 5.7.30
+DB TABLES___________: 32
+DB ROWS_____________: 663
+DB FILE SIZE________: 2.33MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.17 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://lenastrip.lena-clavier.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip/20200508_lenastrip_[HASH]_20200509140117_archive.zip"
+SIZE________________: 35.51MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 02:04:53 - RUNTIME: 4.0090 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:05:35
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.28 -- Build Server: 5.7.30
+FILE SIZE:	dup-database__[HASH].sql (780.93KB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/homepages/45/d707366542/htdocs/sous-domaines/lenastrip/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.28] is less than the build version [5.7.30].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'Statement violates GTID consistency: Updates to non-transactional tables can only be done in either autocommitted statements or single-statement transactions, and never in the same statement as updates to transactional tables.' - [sql=/* INSERT TABLE DATA: wp_create_map */
+INSERT INTO `wp_create_map` VALUES("...]
+**ERROR** database error write 'Statement violates GTID consistency: Updates to non-transactional tables can only be done in either autocommitted statements or single-statement transactions, and never in the same statement as updates to transactional tables.' - [sql=/* INSERT TABLE DATA: wp_group_map */
+INSERT INTO `wp_group_map` VALUES("1"...]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DATABASE: table "wp_create_map" row count mismatch; expected "1" in database"0"
+DATABASE: table "wp_group_map" row count mismatch; expected "1" in database"0"
+ERROR: Database Table row count verification was failed for table(s): wp_create_map, wp_group_map
+ERRORS FOUND:	2
+DROPPED TABLES:	43
+RENAMED TABLES:	0
+QUERIES RAN:	711
+
+wp_commentmeta: (16)
+wp_comments: (8)
+wp_create_map: (0)
+wp_duplicator_packages: (0)
+wp_group_map: (0)
+wp_links: (0)
+wp_map_locations: (0)
+wp_nextend2_image_storage: (6)
+wp_nextend2_section_storage: (11)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (2)
+wp_nextend2_smartslider3_sliders_xref: (1)
+wp_nextend2_smartslider3_slides: (6)
+wp_ngg_album: (0)
+wp_ngg_gallery: (1)
+wp_ngg_pictures: (4)
+wp_options: (188)
+wp_postmeta: (224)
+wp_posts: (71)
+wp_term_relationships: (25)
+wp_term_taxonomy: (23)
+wp_termmeta: (0)
+wp_terms: (23)
+wp_usermeta: (24)
+wp_users: (1)
+wp_wpgmza: (3)
+wp_wpgmza_circles: (0)
+wp_wpgmza_maps: (1)
+wp_wpgmza_nominatim_geocode_cache: (2)
+wp_wpgmza_polygon: (0)
+wp_wpgmza_polylines: (0)
+wp_wpgmza_rectangles: (0)
+Removed '36' cache/transient rows
+
+INSERT DATA RUNTIME: 3.0989 sec.
+STEP-2 COMPLETE @ 02:05:39 - RUNTIME: 3.1466 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wp_create_map" row count mismatch; expected "1" in database"0"
+DATABASE: table "wp_group_map" row count mismatch; expected "1" in database"0"
+
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:05:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Lena&#039;s trip"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/html"
+path_new______________: "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+siteurl_______________: "https://lenastrip.lena-clavier.com"
+url_old_______________: "http://localhost:8000"
+url_new_______________: "https://lenastrip.lena-clavier.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_create_map"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_group_map"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_map_locations"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_ngg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ngg_gallery"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_ngg_pictures"_________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   188][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   224][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_wpgmza"_______________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_wpgmza_circles"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_maps"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_wpgmza_nominatim_geocode_cache"_______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  4:"\var\www\html" ===================================> "/homepages/45/d707366542/htdocs/sous-domaines/lenastrip"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/homepages\/45\/d707366542\/htdocs\/sous-domaines\/lenastrip"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhomepages%2F45%2Fd707366542%2Fhtdocs%2Fsous-domaines%2Flenastrip"
+	SEARCH  7:"//localhost:8000" ================================> "//lenastrip.lena-clavier.com"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/lenastrip.lena-clavier.com"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Flenastrip.lena-clavier.com"
+	SEARCH 10:"http://lenastrip.lena-clavier.com" ===============> "https://lenastrip.lena-clavier.com"
+	SEARCH 11:"http:\/\/lenastrip.lena-clavier.com" =============> "https:\/\/lenastrip.lena-clavier.com"
+	SEARCH 12:"http%3A%2F%2Flenastrip.lena-clavier.com" =========> "https%3A%2F%2Flenastrip.lena-clavier.com"
+
+EVALUATE TABLE: "wp_wpgmza_polygon"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_polylines"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_rectangles"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:32 	|	 Rows:640 	|	 Cells:4237 
+UPDATED:	Tables:6 	|	 Rows:87 	|	 Cells:100 
+ERRORS:		0 
+RUNTIME:	0.391600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""dbs413021""
+	UPDATE DB_USER ""dbu168833""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""db5000432011.hosting-data.io""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:05:45 - RUNTIME: 0.5208 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] STEP 2 - INSTALL NOTICES (2)
+	SECTIONS: database
+	LONG MSG:         Queries that error during the deploy step are logged to the <a href="./dup-installer-log__57b1808-09140117.txt" target="dup-installer">install-log.txt</a> file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-110-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (4)
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Statement violates GTID consistency: Updates to non-transactional tables can only be done in either autocommitted statements or single-statement transactions, and never in the same statement as updates to transactional tables.' - [sql=/* INSERT TABLE DATA: wp_create_map */
+INSERT INTO `wp_create_map` VALUES("...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Statement violates GTID consistency: Updates to non-transactional tables can only be done in either autocommitted statements or single-statement transactions, and never in the same statement as updates to transactional tables.' - [sql=/* INSERT TABLE DATA: wp_group_map */
+INSERT INTO `wp_group_map` VALUES("1"...]
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wp_create_map" row count mismatch; expected "1" in database"0"
+DATABASE: table "wp_group_map" row count mismatch; expected "1" in database"0"
+
+
+====================================
