@@ -8,9 +8,9 @@ services:
      restart: always
      environment:
        MYSQL_ROOT_PASSWORD: lenastrip
-       MYSQL_DATABASE: lenastrip
-       MYSQL_USER: lenastrip
-       MYSQL_PASSWORD: lenastrip
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
    phpmyadmin:
      depends_on:
        - db
